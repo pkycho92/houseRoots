@@ -1,0 +1,118 @@
+<head>
+    <link href="index.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="page">
+        <header>
+            <div id="mainNavigation">
+                <div id="navbar">
+                    <ul>
+                        <li id="homeLink" class="active">Home</li>
+                        <li id="ourStoryLink"><a href="/ourStory.html">Our Story</a></li>
+                        <li id="menuLink"><a href="/resources/menu.jpg" target=”_blank”>Menu</a></li>
+                        <li id="aboutLink"><a href="/events.html">Events</a></li>
+                        <li id="contactLink"><a href="/contactUs.html">Contact</a></li>
+                    </ul>
+                </div>
+                <img src="/resources/index.jpg" class="banner" />
+            </div>
+        </header>
+        <div id="introSection">
+            <div id="introText">
+                <div id="introTitle" class="indexTitle">
+                    <p>
+                        Welcome
+                    </p>
+                </div>
+                <div id="introBody" class="indexBody">
+                    <p>
+                        Lorem impsum dolor sit amet, consectetu adipiscing<br />
+                        eli, sed do emiusmod tempo incididunt ut labore<br />
+                        et dolore magna aliqua. Ut enim ad minim veniam,<br />
+                        quis nostrud exercitation ullamco laboris nisi<br />
+                        ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </div>
+            <img id="introPicture" src="/resources/introPicture.jpg" />
+        </div>
+        <div id="menuSection">
+            <img src="/resources/indexMenu.jpg" class="banner" />
+        </div>
+        <div id="vendorSection">
+            <div id="vendorTitle" class="indexTitle">
+                <p>
+                    Proudly Serving
+                </p>
+            </div>
+            <div id="vendorImages">
+                <img class="vendorImage" src="/resources/heart.png" />
+                <img class="vendorImage" src="/resources/goodluck.png" />
+                <img class="vendorImage" src="/resources/califa.png" />
+                <img class="vendorImage" src="/resources/oatl.png" />
+            </div>
+        </div>
+        <div id="instagramFeed">
+            <div id="pixlee_container"></div>
+            <script type="text/javascript">window.PixleeAsyncInit = function () { Pixlee.init({ apiKey: 'Y6S27TsUjKlv1DFH2HLd' }); Pixlee.addSimpleWidget({ widgetId: '12114' }); };</script>
+            <script src="//instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
+        </div>
+        <div id="mapLocation">
+            <div id="locationHours">
+                <div id="locationTitle" class="locationHeader">
+                    Location
+                </div>
+                <div id="location" class="locationBody">
+                    3832, 16155 San Fernando Mission Blvd<br />
+                    Granada Hills, CA 91344
+                </div>
+                <div id="hoursTitle" class="locationHeader">
+                    Hours
+                </div>
+                <div id="hours" class="locationBody">
+                    M-S 7AM-7PM <br />
+                    Sun 1PM-7PM
+                </div>
+            </div>
+            <div id="map"></div>
+        </div>
+        <div id="footer">
+            <img id="footerLogo" src="/resources/footer-logo.png" />
+            <div id="newsletter">
+                <p>
+                    Sign up for our newsletter and we'll keep you posted<br />
+                    with news and events
+                </p>
+                <div id="footerEmailDiv" class="formBorder">
+                    <input id="footerEmail" type="email" placeholder="Email Address" />
+                </div>
+                <div id="footerBorderDiv" class="formBorder">
+                    <input id="footerButton" type="button" value="Enter" />
+                </div>
+                <div id="follow">
+                    <p>Follow Us</p>
+                    <div id="followLogos">
+                        <a href="https://www.facebook.com/houserootscoffee/" target="_blank"><img id="fb" src="resources/facebook.png" /></a>
+                        <a href="https://www.instagram.com/houserootscoffee/" target="_blank"><img id="ig" src="resources/instagram.png" /></a>
+                    </div>
+                </div>
+            </div>
+            <div id="footerBanner">
+                <div id="info">
+                    <div id="number">888.888.888</div>
+                    |
+                    <a id="email" href="mailto:info@houserootscoffee.com">info@houserootscoffee.com</a>
+
+                </div>
+                <div id="copyright">
+                    &copy 2018, House Roots Coffee, All right reserved
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="index.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AM&callback=initMap"
+    type="text/javascript"></script>
