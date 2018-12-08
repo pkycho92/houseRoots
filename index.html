@@ -55,8 +55,13 @@
         </div>
         <div id="instagramFeed">
             <div id="pixlee_container"></div>
-            <script type="text/javascript">window.PixleeAsyncInit = function () { Pixlee.init({ apiKey: 'Y6S27TsUjKlv1DFH2HLd' }); Pixlee.addSimpleWidget({ widgetId: '12114' }); };</script>
-            <script src="//instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
+            <script type="text/javascript">window.PixleeAsyncInit =
+                    function () {
+                        Pixlee.init({ apiKey: 'Y6S27TsUjKlv1DFH2HLd' });
+                        Pixlee.addSimpleWidget({ widgetId: '12114' });
+                    };
+            </script>
+            <script src="pixlee_widget_1_0_0.js"></script>
         </div>
         <div id="mapLocation">
             <div id="locationHours">
@@ -111,5 +116,4 @@
             </div>
         </div>
     </div>
-
 </body>
