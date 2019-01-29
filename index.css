@@ -109,6 +109,8 @@ a {
     max-height: 525px;
     margin: auto;
     overflow: hidden;
+    pointer-events: none;
+    cursor: default;
 }
 
 #pixlee-container {
@@ -116,6 +118,7 @@ a {
     position: absolute;
     width: auto;
     max-width: 100%;
+
 }
 
 #mapLocation {
