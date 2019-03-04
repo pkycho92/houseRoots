@@ -49,13 +49,13 @@ a {
 }
 
 #introSection {
-    display: table;
+    display: block;
     margin: 60px 0;
     min-width: 1055px;
 }
 
 #introText {
-    display: table-cell;
+    display: inline-block;
     vertical-align: middle;
     width: 45%;
     white-space: nowrap;
@@ -81,10 +81,11 @@ a {
 }
 
 #introPicture {
-    display: table-cell;
+    display: inline-block;
     vertical-align: middle;
-    width: 70%;
-    padding: 0px 0px;
+    width: 40%;
+    margin: auto 100px;
+
 }
 
 #vendorImages {
